@@ -8,46 +8,24 @@ Repositories can be hosted online on web platforms, e.g. GitHub, GitLab, and Bit
 
 `Aalto Version Control System <https://version.aalto.fi/>`_ is developed on top of GitLab.
 
-Material available
-------------------
+Material
+--------
 
-There is plenty of material on Git available on the internet, but is a little bit hard to find straightforward instructions/explanations.
+There is plenty of material available on the internet, but is a little bit hard to find straightforward instructions/explanations.
 I collected a few websites that is worth checking:
 
+- `Introduction to Git: Code Refinery 2019 (~285 min) <https://coderefinery.github.io/git-intro/>`_
 - `First steps with Git <https://www.atlassian.com/git/tutorials/setting-up-a-repository>`_
 - `Training with Git Immersion <http://gitimmersion.com/>`_
-- `Introduction to Git: Code Refinery 2019 (~285 min) <https://coderefinery.github.io/git-intro/>`_
 - `Configure SSH keys <https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>`_
+- `MATLAB Git set up <https://se.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html>`_
+- `Aalto Git cheatsheet <https://users.aalto.fi/~darstr1/cheatsheets/git-cheatsheet.pdf>`_ 
 
+What is Git?
+------------
 
+Git works by tracking *changes in files* and not by *manipulating files*! (What?)
 
-Level 3
-^^^^^^^
+With version control you can travel back and forth in the history of your code.
 
-Level 4
-"""""""
-
-Exciting documentation in here.
-Let's make a list (empty surrounding lines required):
-
-- item 1: `A link <http://www.google.com>`_
-
-  - nested item 1
-  - nested item 2
-
-- item 2
-- item 3
-
-#. numbered list 1
-#. numbered list 2
-
-Simple table
-
-====== ======
-No.    Prime
-====== ======
-1      No
-2      Yes
-3      Yes
-4      No
-====== ======
+Git allows you to automatically combine and synccode code that is edited simultaniously in multiple places.
