@@ -10,6 +10,7 @@ Welcome to Git Course's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   start-here
    feature-a
 
 
