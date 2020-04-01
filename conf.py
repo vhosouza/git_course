@@ -52,3 +52,7 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Required to avoid Sphinx error in ReadTheDocs building process. ReadTheDocs is using
+# Sphinx v1. while this project uses Sphix v2.
+master_doc = 'index'
